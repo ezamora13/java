@@ -1,0 +1,12 @@
+package com.openwebinars.beans.list;
+
+import java.util.List;
+
+public class Provincia {
+	
+	private String nombre;
+	private List<Poblacion> poblaciones;
+	
+	
+
+}

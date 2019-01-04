@@ -1,0 +1,28 @@
+package com.openwebinars.beans;
+
+import lombok.Getter;
+import lombok.Setter;
+
+public class Vehiculo {
+
+	@Getter
+	@Setter
+	private String marca;
+	@Getter
+	@Setter
+	private String modelo;
+	@Getter
+	@Setter
+	private Motor motor;
+
+	public Vehiculo() {
+	}
+
+	public Vehiculo(String marca, String modelo, String motor) {
+		super();
+		this.marca = marca;
+		this.modelo = modelo;
+		this.motor = motor;
+	}
+
+}
