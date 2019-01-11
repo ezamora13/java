@@ -6,6 +6,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import com.openwebinars.beans.Mundo;
 import com.openwebinars.beans.Vehiculo;
+import com.openwebinars.beans.autowire.Cliente;
 import com.openwebinars.beans.list.Provincia;
 
 /**
@@ -18,6 +19,7 @@ public class App {
 		beansBasico();
 		beansReferencial();
 		beansList();
+		beansAutowire();
 
 	}
 
@@ -54,4 +56,15 @@ public class App {
 	}
 	
 	
+	
+	
+	private static void beansAutowire() {
+		System.out.println("Ingreso beansAutowire");
+		ApplicationContext applicationContext = new ClassPathXmlApplicationContext(
+				"com/openwebinars/xml/beans_autowire.xml");
+		Cliente cliente = (Cliente) applicationContext.getBean("cliente");		
+		System.out.println("valor de vehiculo:" + cliente.toString());
+		((ConfigurableApplicationContext) applicationContext).close();
+
+	}
 }
