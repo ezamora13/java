@@ -1,7 +1,11 @@
 package introduccion;
 
+import lombok.Getter;
+
 import java.util.ArrayList;
 
+
+@Getter
 public class IntroduccionExtructuraDatos {
     public static void main(String[] args) {
         ArrayList<String> list = new ArrayList<String>();
