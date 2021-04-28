@@ -69,7 +69,3 @@ J
 src/main/java/tmp/Tmp.java,0/8/08b9dcfcd28d6e5723465c573a0b682275e01ad5
 `
 0src/main/java/apiStream/Basic/ExampleStream.java,a/f/af5a006f6c7e4274f8225729f24955bfc27f9af9
-i
-9src/main/java/apiStream/ordenacion/ExampleOrdenacion.java,6/7/678ebbb0226402b55277ddcf2ae332cb30e769ec
-c
-3src/main/java/apiStream/ordenacion/ExampleDato.java,5/1/5144ff7634eb658d1c19b038142cc704045f6807

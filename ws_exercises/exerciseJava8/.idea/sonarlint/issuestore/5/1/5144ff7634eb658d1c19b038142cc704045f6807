@@ -1,13 +1,0 @@
-
-Z	java:S106!"9Replace this use of System.out or System.err by a logger.(µÑÀ›üÿÿÿÿ8­™’/
-Z	java:S1062"9Replace this use of System.out or System.err by a logger.(Íş€Šÿÿÿÿÿ8ğ„“/
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(ƒìîüıÿÿÿÿ8ù¥î/
-]	java:S125-"<This block of commented-out lines of code should be removed.(ÿõÉ¦üÿÿÿÿ8Æ¢‚“/
-U	java:S106&"9Replace this use of System.out or System.err by a logger.(à€°Ä8‘Â§’/
-Y
-java:S3655,"7Call "Optional#isPresent()" before accessing the value.(Ï­‹ßÿÿÿÿÿ8Ğã‚“/
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(Éë¸…úÿÿÿÿ8ğÆô‘/
-n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¤ñÍ)
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(‰¡óĞşÿÿÿÿ8Äªò‘/
-u
-java:S1602,"SRemove useless curly braces around statement and then remove useless return keyword(Ï­‹ßÿÿÿÿÿ8›üˆ“/

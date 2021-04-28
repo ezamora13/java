@@ -1,4 +1,4 @@
-package apiStream.ordenacion;
+package apiStream.reduccion;
 
 import java.util.*;
 

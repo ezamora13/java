@@ -1,6 +1,7 @@
 package modelo;
 
 import java.time.LocalDate;
+import java.util.List;
 import java.util.Objects;
 
 public class Persona implements Comparable<Persona> {
@@ -8,6 +9,7 @@ public class Persona implements Comparable<Persona> {
     private String nombre;
     private String apellidos;
     private LocalDate fechaNacimiento;
+    private List<Viaje> viajes;
 
     public Persona() { }
 
@@ -17,6 +19,12 @@ public class Persona implements Comparable<Persona> {
         this.fechaNacimiento = fechaNacimiento;
     }
 
+    public Persona(String nombre, String apellidos, LocalDate fechaNacimiento, List<Viaje> viajes) {
+        this.nombre = nombre;
+        this.apellidos = apellidos;
+        this.fechaNacimiento = fechaNacimiento;
+        this.viajes = viajes;
+    }
 
     public String getNombre() {
         return nombre;
@@ -42,6 +50,14 @@ public class Persona implements Comparable<Persona> {
         this.fechaNacimiento = fechaNacimiento;
     }
 
+    public List<Viaje> getViajes() {
+        return viajes;
+    }
+
+    public void setViajes(List<Viaje> viajes) {
+        this.viajes = viajes;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -64,6 +80,7 @@ public class Persona implements Comparable<Persona> {
                 "nombre='" + nombre + '\'' +
                 ", apellidos='" + apellidos + '\'' +
                 ", fechaNacimiento=" + fechaNacimiento +
+                ", viajes=" + viajes +
                 '}';
     }
 
