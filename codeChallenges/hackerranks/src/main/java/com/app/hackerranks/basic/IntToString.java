@@ -12,6 +12,7 @@ public class IntToString {
 			System.out.println("Good job");
 		
 
+			scanner.close();
 	}
 
 }
