@@ -1,5 +1,18 @@
 # Backend Coding Challenge
 
+## Solucion
+
+Project in spring boot:
+
+Port 9000
+
+endPoint:
+
+
+http://localhost:9000/v1/b-trees/height
+http://localhost:9000/v1/b-trees/neighbors
+http://localhost:9000/v1/b-trees/bfs
+
 ## Requirements
 
 Design a REST API that implements the following operations with binary search trees (b-trees) [https://en.wikipedia.org/wiki/Binary_search_tree]:
