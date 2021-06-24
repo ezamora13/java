@@ -11,7 +11,7 @@ import lombok.Setter;
 @Data
 @Getter
 @Setter
-public class Outbfs {
+public class OutBfs {
 
 	private String bfs;
 

@@ -8,10 +8,11 @@ import org.springframework.web.bind.annotation.RestController;
 import mx.com.minutos99.arboles.ArbolService;
 import mx.com.minutos99.dto.InputHeight;
 import mx.com.minutos99.dto.InputNeighbors;
+import mx.com.minutos99.dto.Neighbor;
+import mx.com.minutos99.dto.OutBfs;
 import mx.com.minutos99.dto.OutHeight;
 import mx.com.minutos99.dto.OutNeighbor;
-import mx.com.minutos99.dto.Outbfs;
-import mx.com.minutos99.dto.Neighbor;
+
 
 @RestController
 @RequestMapping("/v1/b-trees")
@@ -37,10 +38,10 @@ public class Minutos99Controlador {
 	}
 
 	@PostMapping("/bfs")
-	public Outbfs bfs(@RequestBody InputHeight toTree) {
+	public OutBfs bfs(@RequestBody InputHeight toTree) {
 		System.out.println(toTree);
 		ArbolService arbolService = new ArbolService();
-		Outbfs bfs = new Outbfs();
+		OutBfs bfs = new OutBfs();
 		bfs.setBfs(arbolService.bfs(toTree.getToTree()));
 		return bfs;
 	}
