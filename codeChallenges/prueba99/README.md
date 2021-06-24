@@ -9,9 +9,9 @@ Port 9000
 endPoint:
 
 
-http://localhost:9000/v1/b-trees/height
-http://localhost:9000/v1/b-trees/neighbors
-http://localhost:9000/v1/b-trees/bfs
+* http://localhost:9000/v1/b-trees/height
+* http://localhost:9000/v1/b-trees/neighbors
+* http://localhost:9000/v1/b-trees/bfs
 
 ## Requirements
 
