@@ -13,6 +13,9 @@ endPoint:
 * http://localhost:9000/v1/b-trees/neighbors
 * http://localhost:9000/v1/b-trees/bfs
 
+* Run Project > Run As > Spring Boot App
+***
+
 ## Requirements
 
 Design a REST API that implements the following operations with binary search trees (b-trees) [https://en.wikipedia.org/wiki/Binary_search_tree]:
